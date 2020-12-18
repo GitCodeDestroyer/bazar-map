@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup View</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font: lighter 16px "Segoe UI";
+            letter-spacing: 0.1px;
+            /* color: #3C3F50; */
+            background: #fafafa;
+            color: #5F6D7E;
+            padding: 40px 8%;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        h1 {
+            color: #414A52;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        a {
+            color: #2da131;
+        }
+
+        h3 {
+            margin: 25px 3px 4px 3px;
+            font-weight: normal;
+            margin-left: 3px;
+            font-size: 18px;
+        }
+
+        input,
+        .btn {
+            padding: 12px 15px;
+            width: 100%;
+            display: block;
+            border-radius: 3px;
+            border: 1px solid #EEE;
+            transition: all .3s;
+            /* margin: 20px 0; */
+        }
+
+        .or {
+            text-align: center;
+        }
+
+        small {
+            color: #94a4b8;
+            text-align: center;
+            display: block;
+        }
+
+        .btn {
+            background-color: #2db832;
+            color: #FFF;
+            margin-top: 35px;
+            border: 0;
+            font-size: 15px;
+            box-shadow: 0 7px 20px rgba(45, 184, 50, 0.4);
+        }
+
+        .btn:hover {
+            background-color: #2da131;
+        }
+
+        .btn:active {
+            box-shadow: 0 7px 20px rgba(45, 184, 50, 0.25);
+        }
+
+        .seperator {
+            height: 1px;
+            background-color: #E0E0E0;
+            margin: 20px 0;
+        }
+
+        .oauth-section {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .oauth-section a {
+            box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+        }
+
+        .oauth-section a img {
+            height: 22px;
+            margin: 9px auto;
+            display: block;
+        }
+
+        .facebook-btn {
+            background: #3B5998
+        }
+
+        .google-btn {
+            background: #FFF
+        }
+
+        .vk-btn {
+            background: #44678D
+        }
+
+        .instagram-btn {
+            background: #BF2994
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Регистрация</h1>
+    <h3>Как вы хотите зарегистрироваться?</h3>
+    <input type="text" placeholder="Номер Телефона...">
+    <p class="or">или</p>
+    <input type="email" placeholder="Email...">
+    <small>(можно сразу два варианта)</small>
+    <h3 class="password">Пароль</h3>
+    <input type="password" placeholder="Пароль...">
+    <input type="submit" class="btn" value="Подтвердить">
+    <div class="seperator"></div>
+    <div class="oauth-section">
+        <a href="" class="google-btn"><img src="img/google/HxA-Google.scale-100.png" alt=""></a>
+        <a href="" class="facebook-btn"><img src="img/facebook_icon.png" alt=""></a>
+        <a href="" class="instagram-btn"><img src="img/instagram@2x.png" alt=""></a>
+        <a href="" class="vk-btn"><img src="img/vk.png" alt=""></a>
+    </div>
+</body>
+
+</html>
